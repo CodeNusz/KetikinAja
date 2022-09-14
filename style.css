@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+body {
+  background-color: #010101;
+}
+
+/* Hero Style */
+
+.banner {
+  background-image: url(img/keyboard_backlight_black_and_white_218666_3840x2160.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.banner h1 {
+  padding-left: 6.3rem;
+  padding-top: 22rem;
+  font-size: 78px;
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+}
+
+/* About */
+
+#about {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+/* Card */
+
+.card {
+  background-color: #191919;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.icon-image {
+  position: relative;
+  max-width: 250px;
+}
